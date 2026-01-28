@@ -78,7 +78,10 @@ margin-left: 50px;
     button {
         border: none;
         margin-left: 15px;
-}
+    }
+    body {
+        flex-wrap: wrap;
+    }
 }
 
 @media all and(max-width: 500px) {
@@ -88,5 +91,8 @@ margin-left: 50px;
     button {
         border: none;
         margin-left: 15px;
-}
+    }
+     body {
+        flex-wrap: wrap;
+    }
 }
