@@ -1,0 +1,84 @@
+.heading {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+h1 {
+    font-size: 50px;
+    padding: 10px;
+    font-family: 'Fuzzy Bubbles', cursive;
+}
+
+body {
+    background-image: url(Andreyy.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.birthday {
+    background-color: #d2d537;
+    height: 200px;
+    width: 100px;
+    margin-top: 10px;
+    border: 2px solid black;
+    border-radius: 30px;
+}
+
+.block {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h3 {
+    font-size: 20px;
+    font-family: 'Fuzzy Bubbles', cursive;
+    color: black;
+}
+
+.days, .hours, .minutes, .seconds {
+    font-size: 20px;
+    font-family: 'Fuzzy Bubbles', cursive;
+}
+
+.red {
+    font-size: 50px;
+    font-family: 'Fuzzy Bubbles', cursive;
+    border: none;  
+    color: red;  
+}
+
+button {
+border: none;
+margin-left: 50px;
+}
+
+.play {
+    background-image: url(icons8-play-64.png);
+    width: 100px;
+    height: 100px;
+    background-size: contain;
+}
+
+.pause {
+    background-image: url(icons8-pause-64.png);
+}
+
+@media all and(max-width: 800px) {
+    h1 {
+        font-size: 30px;
+    }
+}
+
+@media all and(max-width: 500px) {
+    h1 {
+        font-size: 20px;
+    }
+}
